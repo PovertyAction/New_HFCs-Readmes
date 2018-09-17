@@ -4,9 +4,9 @@ DATA
 
 This folder is designed to store all files containing data. If your data contains personally identifiable information, you need to make sure this folder is encrypted.
 
-- 01_preloads 
+- 01_preloads
 
-This is where you should store preload files. If your survey makes use of preload data, which is usually the case for any follow-up survey round i.e. not a baseline, then save a copy of the files you create here.
+This is where you should store preload files. If your survey makes use of preload data, which is usually the case for any follow-up survey round (i.e. not a baseline), then save a copy of the files you create here.
 
 - 02_survey
 
@@ -14,7 +14,7 @@ This is where you should download the raw survey data directly from the server. 
 
 - 03_bc
 
-This is where you should download the raw back check data directly from the server. When running the HFCs, you can pull in this data and compare it to the original dataset. THe HFCs will output any discrepancies that need to be looked at.
+This is where you should download the raw back check data directly from the server. When running the HFCs, you can pull in this data and compare it to the original dataset. THe HFCs will output any discrepancies that need to be reconciled.
 
 - 04_monitoring
 
